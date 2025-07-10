@@ -40,3 +40,8 @@ table.bibliography th:last-child {
   min-width: 120px;
   max-width: 40vw;
 }
+
+a {
+  color: black;
+  font-weight: lighter;
+}
