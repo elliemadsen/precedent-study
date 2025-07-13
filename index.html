@@ -4,21 +4,49 @@
     <meta charset="UTF-8" />
     <title>trashtrack</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🚮</text></svg>"
+    />
   </head>
   <body>
-    <h1>
-      <a href="https://senseable.mit.edu/trashtrack/" target="_blank"
-        >senseable.mit.edu/trashtrack</a
-      >
-    </h1>
-    <video width="640" height="360" autoplay loop muted playsinline>
-        <source src="trashtrack.mp4" type="video/mp4">
-    </video>
+    <div id="nav">
+      <ul style="list-style: none; padding: 0; margin: 0">
+        <li><a href="#about" id="nav-about">About</a></li>
+        <li><a href="#bibliography" id="nav-bibliography">Bibliography</a></li>
+        <li>
+          <a href="#ontological" id="nav-ontological">Ontological Analysis</a>
+        </li>
+        <li>
+          <a href="#contextual" id="nav-contextual">Contextual Analysis</a>
+        </li>
+        <li>
+          <a href="#representational" id="nav-representational"
+            >Representational Analysis</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <h1 id="about">Precedent Study: Trash | Track</h1>
+    <h3>Ellie Madsen</h3>
+
+    <img src="img/trash.jpg" style="width: 40vw" />
+
     <table>
       <tr>
         <td class="label">Title</td>
         <td class="value">Trash | Track</td>
       </tr>
+      <tr>
+        <td class="label">Website</td>
+        <td class="value">
+          <a href="https://senseable.mit.edu/trashtrack/" target="_blank"
+            >senseable.mit.edu/trashtrack</a
+          >
+        </td>
+      </tr>
+
       <tr>
         <td class="label">Year</td>
         <td class="value">2009</td>
@@ -33,163 +61,425 @@
       </tr>
       <tr>
         <td class="label">Authors</td>
-<td class="value">
-  Carlo Ratti, Director<br>
-  Assaf Biderman, Assoc. Director<br>
-  Dietmar Offenhuber, Team Leader<br>
-  Eugenio Morello, Team Leader, Concept<br>
-  Musstanser Tinauli, Team Leader, First Phase<br>
-  Kristian Kloeckl, Team Leader, Second Phase<br>
-  Lewis Girod, Engineering<br>
-  Jennifer Dunnam<br>
-  E Roon Kang<br>
-  Kevin Nattinger<br>
-  Avid Boustani<br>
-  David Lee, Programming<br>
-  Alan Anderson<br>
-  Clio Andris<br>
-  Carnaven Chiu<br>
-  Chris Chung<br>
-  Lorenzo Davolli<br>
-  Kathryn Dineen<br>
-  Natalia Duque Ciceri<br>
-  Samantha Earl<br>
-  Sarabjit Kaur<br>
-  Sarah Neilson<br>
-  Giovanni de Niederhausern<br>
-  Jill Passano<br>
-  Elizabeth Ramaccia<br>
-  Renato Rinaldi<br>
-  Francisca Rojas<br>
-  Louis Sirota<br>
-  Malima Wolf<br>
-  Eugene Lee<br>
-  Angela Wang<br>
-  Armin Linke, Video
-</td>
+        <td class="value">
+          Carlo Ratti, Director<br />
+          Assaf Biderman, Assoc. Director<br />
+          Dietmar Offenhuber, Team Leader<br />
+          Eugenio Morello, Team Leader, Concept<br />
+          Musstanser Tinauli, Team Leader, First Phase<br />
+          Kristian Kloeckl, Team Leader, Second Phase<br />
+          Lewis Girod, Engineering<br />
+          Jennifer Dunnam<br />
+          E Roon Kang<br />
+          Kevin Nattinger<br />
+          Avid Boustani<br />
+          David Lee, Programming<br />
+          Alan Anderson<br />
+          Clio Andris<br />
+          Carnaven Chiu<br />
+          Chris Chung<br />
+          Lorenzo Davolli<br />
+          Kathryn Dineen<br />
+          Natalia Duque Ciceri<br />
+          Samantha Earl<br />
+          Sarabjit Kaur<br />
+          Sarah Neilson<br />
+          Giovanni de Niederhausern<br />
+          Jill Passano<br />
+          Elizabeth Ramaccia<br />
+          Renato Rinaldi<br />
+          Francisca Rojas<br />
+          Louis Sirota<br />
+          Malima Wolf<br />
+          Eugene Lee<br />
+          Angela Wang<br />
+          Armin Linke, Video
+        </td>
       </tr>
     </table>
-    <h3> Bibliography</h3>
-<table class="bibliography">
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Author</th>
-      <th>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <a href="https://dspace.mit.edu/handle/1721.1/101370" target="_blank">
-          Transforming waste management systems through location tracking and data sharing
-        </a>
-      </td>
-        <td>
+
+    <!-- Video -->
+
+    <video autoplay loop muted playsinline>
+      <source src="img/trashtrack.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Bibliography -->
+
+    <h2 id="bibliography">Bibliography</h2>
+    <table class="bibliography">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <a
+              href="https://dspace.mit.edu/handle/1721.1/101370"
+              target="_blank"
+            >
+              Transforming waste management systems through location tracking
+              and data sharing
+            </a>
+          </td>
+          <td>
             Lee, David, Ph. D.
             <em>Massachusetts Institute of Technology</em>
+          </td>
+          <td>September 2015</td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://ieeexplore.ieee.org/abstract/document/6803134"
+              target="_blank"
+            >
+              Learning from tracking waste: How transparent trash networks
+              affect sustainable attitudes and behavior
+            </a>
+          </td>
+          <td>
+            D. Lee, D. Offenhuber, A. Biderman and C. Ratti<br />
+            <em>2014 IEEE World Forum on Internet of Things.</em>
+          </td>
+          <td>March 2014</td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://www.researchgate.net/profile/Dietmar-Offenhuber/publication/260359325_Tracking_Trash/links/00b7d5325ce07114b7000000/Tracking-Trash.pdf"
+              target="_blank"
+            >
+              Tracking Trash.
+            </a>
+          </td>
+          <td>
+            Phithakkitnukoon, S., Offenhuber, D., Wolf, M., Lee, L., Biderman,
+            A., and Ratti, C.<br />
+            <em>IEEE Pervasive Computing..</em>
+          </td>
+          <td>June 2013</td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://journals.sagepub.com/doi/full/10.1177/0734242X12469822"
+              target="_blank"
+            >
+              Trash Track - Active Location Sensing for Evaluating E-waste
+              Transportation.
+            </a>
+          </td>
+          <td>
+            Offenhuber, Dietmar, Malima I. Wolf, and Carlo Ratti.<br />
+            <em>Waste Management & Research.</em>
+          </td>
+          <td>January 2013</td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://www.researchgate.net/publication/297712570_Putting_matter_in_place_tradeoffs_between_recycling_and_distance_in_planning_for_waste_disposal"
+              target="_blank"
+            >
+              Putting matter in place: tradeoffs between recycling and distance
+              in planning for waste disposal.
+            </a>
+          </td>
+          <td>
+            Offenhuber, D., Lee, D., Wolf, M. I., Phithakkitnukoon, S.,
+            Biderman, A., Ratti, C.<br />
+            <em>Journal of the American Planning Association.</em>
+          </td>
+          <td>May 2012</td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://senseable.mit.edu/trashtrack/downloads/trash-track-nsf.pdf"
+              target="_blank"
+            >
+              MIT researchers map the flow of urban trash
+            </a>
+          </td>
+          <td>Press Release</td>
+          <td>February 2011</td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://ieeexplore.ieee.org/document/5697286"
+              target="_blank"
+            >
+              Investigation of the waste-removal chain through pervasive
+              computing.
+            </a>
+          </td>
+          <td>
+            Boustani, A., Girod, L., Offenhuber, D., Britter, R.E., Wolf, M.,
+            Lee, D., Miles, S., Biderman, A., and Ratti, C. (2011).<br />
+            <em>IEEE, IBM Journal of Research and Development.</em>
+          </td>
+          <td>January 2011</td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://urbanomnibus.net/2009/09/toward-the-sentient-city-interviews/"
+              target="_blank"
+            >
+              Urban Digestive Systems. Towards the Sentient City.
+            </a>
+          </td>
+          <td>
+            Offenhuber, D., Lee, D., Wolf, M., Girod, L., Boustani, A., Dunham,
+            J., Kloeckl, K., Morello, E., Britter, R., Biderman, A., and Ratti,
+            C. (2011).<br />
+            <em
+              >Sentient City: Ubiquitous Computing, Architecture, and the Future
+              of Urban Space. MIT Press.</em
+            >
+          </td>
+          <td>September 2009</td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://senseable.mit.edu/trashtrack/downloads/TrashTrackPress%20Release_091709.pdf"
+              target="_blank"
+            >
+              MIT researchers unveil first Trash Track results in two new
+              exhibitions
+            </a>
+          </td>
+          <td>Press Release</td>
+          <td>September 2009</td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="https://senseable.mit.edu/trashtrack/downloads/TrashTrack_PressRelease_071509.html"
+              target="_blank"
+            >
+              Tracking Trash
+            </a>
+          </td>
+          <td>Press Release</td>
+          <td>July 2009</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <img src="img/map.png" alt="Context Image 1" />
+
+    <!-- Ontological Analysis -->
+    <h2 id="ontological">Ontological Analysis</h2>
+    <table>
+      <tr>
+        <td class="label">People</td>
+        <td class="value">
+          Research team<br />
+          Volunteers<br />
+          Sanitation workers
         </td>
-      <td>September 2015</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://ieeexplore.ieee.org/abstract/document/6803134" target="_blank">
-          Learning from tracking waste: How transparent trash networks affect sustainable attitudes and behavior
-        </a>
-      </td>
-      <td>
-        D. Lee, D. Offenhuber, A. Biderman and C. Ratti<br>
-        <em>2014 IEEE World Forum on Internet of Things.</em>
-      </td>
-      <td>March 2014</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.researchgate.net/profile/Dietmar-Offenhuber/publication/260359325_Tracking_Trash/links/00b7d5325ce07114b7000000/Tracking-Trash.pdf" target="_blank">
-          Tracking Trash.
-        </a>
-      </td>
-      <td>
-        Phithakkitnukoon, S., Offenhuber, D., Wolf, M., Lee, L., Biderman, A., and Ratti, C.<br>
-        <em>IEEE Pervasive Computing..</em>
-      </td>
-      <td>June 2013</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://journals.sagepub.com/doi/full/10.1177/0734242X12469822" target="_blank">
-          Trash Track - Active Location Sensing for Evaluating E-waste Transportation.
-        </a>
-      </td>
-      <td>
-        Offenhuber, Dietmar, Malima I. Wolf, and Carlo Ratti.<br>
-        <em>Waste Management & Research.</em>
-      </td>
-      <td>January 2013</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.researchgate.net/publication/297712570_Putting_matter_in_place_tradeoffs_between_recycling_and_distance_in_planning_for_waste_disposal" target="_blank">
-          Putting matter in place: tradeoffs between recycling and distance in planning for waste disposal.
-        </a>
-      </td>
-      <td>
-        Offenhuber, D., Lee, D., Wolf, M. I., Phithakkitnukoon, S., Biderman, A., Ratti, C.<br>
-        <em>Journal of the American Planning Association.</em>
-      </td>
-      <td>May 2012</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://senseable.mit.edu/trashtrack/downloads/trash-track-nsf.pdf" target="_blank">
-          MIT researchers map the flow of urban trash
-        </a>
-      </td>
-      <td>Press Release</td>
-      <td>February 2011</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://ieeexplore.ieee.org/document/5697286" target="_blank">
-          Investigation of the waste-removal chain through pervasive computing.
-        </a>
-      </td>
-      <td>
-        Boustani, A., Girod, L., Offenhuber, D., Britter, R.E., Wolf, M., Lee, D., Miles, S., Biderman, A., and Ratti, C. (2011).<br>
-        <em>IEEE, IBM Journal of Research and Development.</em>
-      </td>
-      <td>January 2011</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://urbanomnibus.net/2009/09/toward-the-sentient-city-interviews/" target="_blank">
-          Urban Digestive Systems. Towards the Sentient City.
-        </a>
-      </td>
-      <td>
-        Offenhuber, D., Lee, D., Wolf, M., Girod, L., Boustani, A., Dunham, J., Kloeckl, K., Morello, E., Britter, R., Biderman, A., and Ratti, C. (2011).<br>
-        <em>Sentient City: Ubiquitous Computing, Architecture, and the Future of Urban Space. MIT Press.</em>
-      </td>
-      <td>September 2009</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://senseable.mit.edu/trashtrack/downloads/TrashTrackPress%20Release_091709.pdf" target="_blank">
-          MIT researchers unveil first Trash Track results in two new exhibitions
-        </a>
-      </td>
-      <td>Press Release</td>
-      <td>September 2009</td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://senseable.mit.edu/trashtrack/downloads/TrashTrack_PressRelease_071509.html" target="_blank">
-          Tracking Trash
-        </a>
-      </td>
-      <td>Press Release</td>
-      <td>July 2009</td>
-    </tr>
-  </tbody>
+      </tr>
+      <tr>
+        <td class="label">Digital Infrastructure</td>
+        <td class="value">
+          Navizon (geolocation service provider)<br />
+          SENSEable City Lab server<br />
+          Dataset<br />
+          User facing website
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Physical Infrastructure</td>
+        <td class="value">
+          Cell towers<br />
+          Facilities<br />
+          <div style="margin-left: 1.5em">
+            Landfill<br />
+            Recycling<br />
+            Special<br />
+            Transfer<br />
+            Transit
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Materials</td>
+        <td class="value">
+          Wireless sensor tags<br />
+          Trash<br />
+          <div style="margin-left: 1.5em">
+            Cell phones<br />
+            E-waste<br />
+            Glass<br />
+            Household hazardous waste (HHW)<br />
+            Metals<br />
+            Mixed Paper<br />
+            Plastic Bottles<br />
+            Other plastic<br />
+            Plastic-coated paper<br />
+            Textiles
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Institutions</td>
+        <td class="value">
+          SENSEable City Lab<br />
+          Waste Management<br />
+          Qualcomm<br />
+          Sprint<br />
+          The Architectural League of New York<br />
+          City of Seattle Office of Arts and Culture Affairs<br />
+          Seattle Public Utilities<br />
+          The Seattle Public Library
+        </td>
+      </tr>
+    </table>
+    <img
+      src="img/timeline.png"
+      alt="Ontological Analysis"
+      class="ontological-analysis"
+    />
+
+    <!-- Contextual Analysis -->
+    <h2 id="contextual">Contextual Analysis</h2>
+
+    <p class="intro-txt">
+      In 2009, the political climate surrounding U.S. trash and recycling policy
+      was marked by several factors:
+    </p>
+    <table class="contextual-table">
+      <tr>
+        <td class="label">Federal Efforts</td>
+        <td class="value">
+          The newly elected Obama administration placed emphasis on
+          environmental protection and clean energy initiatives, seeing them as
+          integral to both environmental and economic health.
+        </td>
+      </tr>
+
+      <tr>
+        <td class="label">Recessionary Impact</td>
+        <td class="value">
+          The ongoing global recession significantly impacted the recycling
+          industry. Plummeting demand and prices for recycled materials,
+          particularly from China, caused financial strain on municipalities and
+          recycling companies across the U.S. Some cities were forced to cut
+          back or reconsider their recycling programs due to rising costs and
+          dwindling profits.
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Waste Reduction and Diversion</td>
+        <td class="value">
+          Despite the economic challenges, the EPA continued its focus on
+          reducing waste generation and increasing recycling through
+          partnerships, stimulating infrastructure development, and education.
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Local Intervention</td>
+        <td class="value">
+          Some cities like
+          <a
+            href="https://www.nytimes.com/2009/06/11/us/11recycle.html"
+            target="_blank"
+            >San Francisco</a
+          >
+          took decisive steps, making recycling and composting mandatory through
+          local ordinances. <br />The research team explicitly mentioned the
+          <a
+            href="https://www.nyc.gov/html/greenyc/html%20/home/home.shtml"
+            target="_blank"
+            >Green NYC Initiative</a
+          >
+          as a source of inspiration for the project. However, this initiative
+          appears to have been ceased, and documentation can no longer be found
+          online.
+        </td>
+      </tr>
+      <tr>
+        <td class="label">America Recycles Day</td>
+        <td class="value">
+          President Obama issued a proclamation designating November 15, 2009,
+          as America Recycles Day, highlighting recycling's role in conserving
+          resources, reducing greenhouse gas emissions, and supporting the
+          economy, according to the
+          <a
+            href="https://www.federalregister.gov/documents/2009/11/18/E9-27860/america-recycles-day-2009"
+            target="_blank"
+            >Federal Register</a
+          >.
+        </td>
+      </tr>
+    </table>
+
+    <!-- Representational Analysis -->
+    <h2 id="representational">Representational Analysis</h2>
+    <p class="intro-txt">
+      Trash | Track won the 2010 NSF International Science & Engineering
+      Visualization Challenge.
+      <br /><br />The authors take a simple representational approach, using
+      clear text overlayed over a dark map background to spatially depict the
+      path that trash takes from its desposed origin to its final facility
+      destination. The original papers published by the authors include a series
+      of color coded graphs and charts that visualize the quantity and
+      proportion of disposed objects that end in various facility types by
+      location and object category. It also qualifies object
+      categorydestination. The papers published by the authors include a series
+      of color coded charts that visualize the quantity and proportion of
+      disposed objects that end in various facility types by location and object
+      category. It also qualifies object desposal paths as good, fair, or bad.
+      These graphs are used to effectively communicate their conclusions on the
+      effectiveness of the existing recycling system to a general audience.
+    </p>
+    <img
+      src="img/aluminum-can.jpg"
+      alt="Map of aluminum can's path to recycling facility."
+    />
+    <img src="img/soap.jpg" alt="Map of soap's path to recycling facility." />
+    <img
+      src="img/destinations.png"
+      alt="Graph of trash destination facility types."
+    />
+    <img src="img/ratings.png" alt="Graph of trash destination ratings." />
+
+    <script>
+      // Highlight current section in nav
+      function highlightTOC() {
+        const sections = [
+          { id: "about", nav: "nav-about" },
+          { id: "bibliography", nav: "nav-bibliography" },
+          { id: "ontological", nav: "nav-ontological" },
+          { id: "contextual", nav: "nav-contextual" },
+          { id: "representational", nav: "nav-representational" },
+        ];
+        let current = sections[0].id;
+        for (const section of sections) {
+          const el = document.getElementById(section.id);
+          if (el && window.scrollY + 80 >= el.offsetTop) {
+            current = section.id;
+          }
+        }
+        sections.forEach((section) => {
+          const navEl = document.getElementById(section.nav);
+          if (section.id === current) {
+            navEl.style.fontWeight = "bold";
+          } else {
+            navEl.style.fontWeight = "normal";
+          }
+        });
+      }
+      window.addEventListener("scroll", highlightTOC);
+      window.addEventListener("DOMContentLoaded", highlightTOC);
+    </script>
   </body>
 </html>

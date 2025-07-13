@@ -45,3 +45,58 @@ a {
   color: black;
   font-weight: lighter;
 }
+
+h1,
+h3 {
+  font-weight: lighter;
+}
+
+h2 {
+  margin-top: 3em;
+}
+
+.contextual-table td.label {
+  width: 220px;
+  min-width: 180px;
+  max-width: 240px;
+  vertical-align: top;
+  font-weight: bold;
+  white-space: normal;
+}
+.contextual-table td.value {
+  width: 350px;
+  min-width: 220px;
+  max-width: 400px;
+  vertical-align: top;
+}
+
+.intro-txt {
+  width: 60vw;
+  max-width: 60vw;
+}
+
+img,
+video {
+  width: 60vw;
+  max-width: 60vw;
+  margin-top: 2em;
+}
+
+#nav {
+  position: fixed;
+  top: 30px;
+  left: 10px;
+  z-index: 1000;
+  padding: 1em 1.5em;
+  border-right: 1px solid black;
+  text-align: right;
+}
+
+#nav-about,
+#nav-bibliography,
+#nav-ontological,
+#nav-contextual,
+#nav-representational {
+  font-size: smaller;
+  text-decoration: none;
+}
